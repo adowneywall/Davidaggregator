@@ -9,3 +9,7 @@ Web-based graphical user interface: https://adowneywall.shinyapps.io/Davidaggreg
 ----
 
 Alternatively, you can use the R script - `DAVID_aggregation.R`.
+
+---
+
+**Grant support**: Development of this script was carried out in the laboratory of David J Waxman, Boston University, supported in part by NIH grants R01-DK121998 (Growth Hormone Regulation of Sex Differences in Liver Metabolism) and R01-ES024421 (Epigenetic Actions of Environmental Chemicals) to DJW.
