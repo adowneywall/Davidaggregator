@@ -131,10 +131,8 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      fileInput("david_file", 
-                label=HTML("Upload DAVID file(s) <br/> <br/> <i>Select multiple files by using either control or shift click <i/>"), 
-                multiple = TRUE),
-      
+      fileInput(inputId = "david_file",buttonLabel = "Upload",label="Upload DAVID file(s)",multiple = TRUE),
+      helpText(HTML("<i>Select multiple files by using either control or shift click <i/>")),
       actionButton(inputId = "go", label = "Convert"),
       
       conditionalPanel(
@@ -212,7 +210,6 @@ server <- function(input, output) {
     setwd(main_dir)
     
     runjs("$('#downloadData')[0].click();")
-    
   })
   
   output$downloadData <- downloadHandler(

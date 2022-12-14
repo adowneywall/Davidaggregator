@@ -1,0 +1,13 @@
+name: davidaggregator
+title: davidaggregator
+username:
+account: adowneywall
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7891266
+bundleId: 6635967
+url: https://adowneywall.shinyapps.io/davidaggregator/
+when: 1671022027.06218
+lastSyncTime: 1671022027.0622
+asMultiple: FALSE
+asStatic: FALSE
