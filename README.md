@@ -6,4 +6,6 @@ Script (and associated shiny app) that takes a single file or list of text files
 
 Web-based graphical user interface: https://adowneywall.shinyapps.io/Davidaggregator/
 
+----
 
+Alternatively, you can use the R script - `DAVID_aggregation.R` - in this repository to run this script on your local machine with R.
