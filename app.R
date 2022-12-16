@@ -131,8 +131,12 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      fileInput(inputId = "david_file",buttonLabel = "Upload",label="Upload DAVID file(s)",multiple = TRUE),
-      helpText(HTML("<i>Select multiple files by using either control or shift click <i/>")),
+      fileInput(inputId = "david_file",buttonLabel = "Upload",label="Upload DAVID .txt file(s)",multiple = TRUE),
+      helpText(HTML("<i>Note 1: Files should be in the default format prodivded by the DAVID enrichment analysis tool <i/>")),
+      helpText(HTML("<i>Note 2: Select multiple files by using either control or shift click <i/>")),
+      tags$a(href="https://david.ncifcrf.gov/tools.jsp", 
+             "Link to DAVID webpage"),
+      helpText(""),
       actionButton(inputId = "go", label = "Convert"),
       
       conditionalPanel(
